@@ -17,13 +17,17 @@ The confirm page shows the appointment time and will hold the appointment for th
 
 # Improvements
 Some Improvements would be:
-    Better error handling on provider scheduling page, currently only done on submit
-    Allow providers to select multiple times slots per day instead of one block of time
-    Increased test coverage for all pages
-    Ability to handle pagination of appointment times for the client scheduling page, such as a button for more appointments or allow users to select appointments on a certain date
-    Client confirmation page should display provider information as well
-    Data could be better equipped to handle API calls and update information as expected such as selecting the primary care provider as default on the client scheduling page or the highlighted dots when a new schedule is added
-    General application cleanup of unused files leftover from create react app 
+- Better error handling on the provider scheduling page (currently only done on submit).
+- Allow providers to select multiple time slots per day instead of one block of time.
+- Increased test coverage for all pages.
+- Ability to handle pagination of appointment times for the client scheduling page, such as:
+  - A button for more appointments.
+  - Allowing users to select appointments on a specific date.
+- The client confirmation page should display provider information as well.
+- Data could be better equipped to handle API calls and update information as expected, such as:
+  - Selecting the primary care provider as default on the client scheduling page.
+  - Highlighting dots when a new schedule is added.
+- General application cleanup of unused files leftover from create-react-app.
 
 # Getting Started with Create React App
 
