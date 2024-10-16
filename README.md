@@ -1,3 +1,30 @@
+# Henry Meds Scheduling App
+
+This app allows providers to create a schedule of their availability and clients to 
+schedule an appointment.
+
+<img src="public/SignInPage.png" />
+This page allows users to see the flow of the provider or the client
+
+<img src="public/ProviderSchedule.png" />
+The Provider Scheduling page allows providers to see what dates they already have  scheduled on their calendar and click on the dates to change or add availability to their schedule.
+
+<img src="public/ClientSchedule.png" />
+The Client Schedule page allows clients to see the available times for a list of providers.  They can pick an appointment and then are taken to the confirm page.
+
+<img src="public/ClientConfirmPage.png" />
+The confirm page shows the appointment time and will hold the appointment for the client for 30 minutes before letting the user know that the appointment has expired.
+
+# Improvements
+Some Improvements would be:
+    Better error handling on provider scheduling page, currently only done on submit
+    Allow providers to select multiple times slots per day instead of one block of time
+    Increased test coverage for all pages
+    Ability to handle pagination of appointment times for the client scheduling page, such as a button for more appointments or allow users to select appointments on a certain date
+    Client confirmation page should display provider information as well
+    Data could be better equipped to handle API calls and update information as expected such as selecting the primary care provider as default on the client scheduling page or the highlighted dots when a new schedule is added
+    General application cleanup of unused files leftover from create react app 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,32 +66,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
